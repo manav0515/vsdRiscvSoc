@@ -12,6 +12,7 @@
 - Platform used: **Rocky Linux** (RHEL-based alternative to Ubuntu)
 
 ## Table Of Content: -
+```
 Task 1 — Install base developer tools
 Task 2 — Create a clean workspace and capture your home path
 Task 3 — Get a prebuilt RISC‑V GCC toolchain
@@ -27,6 +28,7 @@ Compile with injected identity and RISC‑V flags
 Run on Spike with the proxy kernel
 Final Expected Output
 Conclusion
+```
 
 Results: -
 Source file: - unique_test.c .
@@ -34,7 +36,12 @@ The exact compile command used .
 The program output from spike pk ./unique_test .
 
 ### Task 1 — Install base developer tools
-<pre lang="bash"> ```bash sudo apt-get install -y git vim autoconf automake autotools-dev curl \ libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex \ texinfo gperf libtool patchutils bc zlib1g-dev libexpat1-dev gtkwave ``` </pre>
+```
+sudo apt-get install -y git vim autoconf automake autotools-dev curl \
+libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex \
+texinfo gperf libtool patchutils bc zlib1g-dev libexpat1-dev gtkwave
+```
+
 
 ### Task 2 — Create a clean workspace and capture your home path
 ```

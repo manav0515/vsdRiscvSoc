@@ -61,8 +61,7 @@ bubble_sort.c -o bubble_sort
 - `MACHINE_ID`
 - `BUILD_UTC`
 - `BUILD_EPOCH`
-- Program name
+- `Program name`
 
-#### These fields ensure the build is unique to my machine and identity.  
-#### All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
+#### These fields ensure the build is unique to my machine and identity. All screenshots and output files (e.g., `factorial_output.png`, `bitops_output.png`) clearly show these values for verification.
 

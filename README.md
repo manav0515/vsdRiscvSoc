@@ -1,4 +1,3 @@
-[RISC-V TASK 1.pdf](https://github.com/user-attachments/files/21560845/RISC-V.TASK.1.pdf)
 # Task 1 – RISC-V Toolchain Setup & Uniqueness Test (VSD SoC Lab) #
 
 - This repository contains the setup steps, verification outputs, and code related to Task 1 of the **VSD RISC-V SoC Lab**. The task includes setting up the complete RISC-V GCC toolchain, building the Spike ISA simulator and Proxy Kernel, and validating the setup by compiling and running a uniqueness test program.
@@ -26,14 +25,17 @@
 - [Create unique_test.c](#1-create-unique_testc)
 - [Compile with injected identity and RISC-V flags](#2-compile-with-injected-identity-and-riscv-flags)
 - [Run on Spike with the proxy kernel](#3-run-on-spike-with-the-proxy-kernel)
-- [Final Expected Output](#output)
-- [Conclusion](#conclusion)
+- [Final Expected Output](#output--)
+- [Conclusion](#conclusion--)
 
 ## Results: -
 
 - Source file: - [unique_test.c](#1-create-unique_testc).
 - The exact compile command used: - [Compile Command](#compile-command--).
-- The program output from ```spike pk ./unique_test```: - [Output](#output).
+- The program output from ```spike pk ./unique_test```: - [Output](#output--).
+
+## Environment Setup & Execution Steps
+
 
 ### Task 1 — Install base developer tools
 ```
@@ -227,11 +229,11 @@ unique_test.c -o unique_test
 ```
 spike pk ./unique_test
 ```
-## Output
+## Output: -
 
 <img width="633" height="129" alt="Screenshot from 2025-08-02 20-48-44" src="https://github.com/user-attachments/assets/c12f7949-41a2-43ab-82c8-ddfbe0e8157f" />
 
- ## Conclusion
+ ## Conclusion: -
 This task helped me understand the full flow of bare-metal RISC-V development — from setting up the toolchain to running compiled programs on an ISA simulator. Successfully building and testing the toolchain on Rocky Linux also gave me deeper confidence with open-source hardware workflows and Linux-based development environments.
 This setup forms the foundation for further phases of the VSD SoC Lab, including RTL simulation, synthesis, and SoC-level integration.
 

@@ -14,4 +14,4 @@
 
 ### Spike Version
 #### Output of ``` spike -version ```
-#### (Note: - ``` 
+#### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)

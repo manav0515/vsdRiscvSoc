@@ -21,18 +21,19 @@
 - [Task 6 — Build and install Spike (RISC‑V ISA simulator)](#task-6--build-and-install-spike-riscv-isa-simulator)
 - [Task 7 — Build and install the RISC‑V Proxy Kernel (riscv-pk)](#task-7--build-and-install-the-riscv-proxy-kernel-riscv-pk)
 - [Task 8 — Ensure the cross bin directory is in PATH](#task-8--ensure-the-cross-bin-directory-is-in-path)
-- [Task 9 — Install Icarus Verilog](#task-9--install-icarus-verilog)
+- [Task 9 — Install Icarus Verilog](#task-9--optional-install-icarus-verilog)
 - [Task 10 — Quick sanity checks](#task-10--quick-sanity-checks)
-- [Create unique_test.c](#create-uniquetestc)
-- [Compile with injected identity and RISC-V flags](#compile-with-injected-identity-and-risc-v-flags)
-- [Run on Spike with the proxy kernel](#run-on-spike-with-the-proxy-kernel)
-- [Final Expected Output](#final-expected-output)
+- [Create unique_test.c](#1-create-unique_testc)
+- [Compile with injected identity and RISC-V flags](#2-compile-with-injected-identity-and-riscv-flags)
+- [Run on Spike with the proxy kernel](#3-run-on-spike-with-the-proxy-kernel)
+- [Final Expected Output](#output)
 - [Conclusion](#conclusion)
 
-Results: -
-Source file: - unique_test.c .
-The exact compile command used .
-The program output from spike pk ./unique_test .
+## Results: -
+
+- Source file: - [unique_test.c](#1-create-unique_testc).
+- The exact compile command used: - [Compile Command](#compile-command--).
+- The program output from ```spike pk ./unique_test```: - [Output](#output).
 
 ### Task 1 — Install base developer tools
 ```
@@ -146,13 +147,16 @@ chmod +x autoconf.sh
 ./configure
 make -j$(nproc)
 sudo make install
-Task 10 — Quick sanity checks
+```
+### Task 10 — Quick sanity checks
+```
 which riscv64-unknown-elf-gcc
 riscv64-unknown-elf-gcc -v
 which spike
 spike --version || spike -h
 which pk
 ```
+
 <img width="1198" height="770" alt="Screenshot from 2025-08-02 23-18-54" src="https://github.com/user-attachments/assets/32d5f734-a3c2-461d-8d33-9e40a905e36b" />
 
 <img width="1198" height="770" alt="Screenshot from 2025-08-02 23-19-05" src="https://github.com/user-attachments/assets/28801abd-c406-46bc-9dd1-efcf2a466953" />
@@ -223,11 +227,11 @@ unique_test.c -o unique_test
 ```
 spike pk ./unique_test
 ```
-## Output: -
+## Output
 
 <img width="633" height="129" alt="Screenshot from 2025-08-02 20-48-44" src="https://github.com/user-attachments/assets/c12f7949-41a2-43ab-82c8-ddfbe0e8157f" />
 
- ## Conclusion: -
+ ## Conclusion
 This task helped me understand the full flow of bare-metal RISC-V development — from setting up the toolchain to running compiled programs on an ISA simulator. Successfully building and testing the toolchain on Rocky Linux also gave me deeper confidence with open-source hardware workflows and Linux-based development environments.
 This setup forms the foundation for further phases of the VSD SoC Lab, including RTL simulation, synthesis, and SoC-level integration.
 

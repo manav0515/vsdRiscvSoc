@@ -15,3 +15,9 @@
 ### Spike Version
 #### Output of ``` spike -version ```
 #### (Note: - ``` spike --help | head -1 ``` used instead of ``` spike -version```)
+<img width="752" height="49" alt="spike -version" src="https://github.com/user-attachments/assets/cdea4e35-a52f-4033-ba04-b613a1fffade" />
+
+### riscv64-unknown-elf-gcc -v
+#### Output of ``` riscv64-unknown-elf-gcc -v ```
+<img width="1198" height="327" alt="riscv64-unknown-elf-gcc -v" src="https://github.com/user-attachments/assets/dde55d4a-0067-46ab-bd9c-cf863f78bdfb" />
+

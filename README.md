@@ -12,23 +12,22 @@
 - Platform used: **Rocky Linux** (RHEL-based alternative to Ubuntu)
 
 ## Table Of Content: -
-```
-Task 1 — Install base developer tools
-Task 2 — Create a clean workspace and capture your home path
-Task 3 — Get a prebuilt RISC‑V GCC toolchain
-Task 4 — Add toolchain to your PATH (current shell + persistent)
-Task 5 — Install Device Tree Compiler (DTC)
-Task 6 — Build and install Spike (RISC‑V ISA simulator)
-Task 7 — Build and install the RISC‑V Proxy Kernel (riscv-pk)
-Task 8 — Ensure the cross bin directory is in PATH
-Task 9 — Install Icarus Verilog
-Task 10 — Quick sanity checks
-Create unique_test.c
-Compile with injected identity and RISC‑V flags
-Run on Spike with the proxy kernel
-Final Expected Output
-Conclusion
-```
+
+- [Task 1 — Install base developer tools](#task-1--install-base-developer-tools)
+- [Task 2 — Create a clean workspace and capture your home path](#task-2--create-a-clean-workspace-and-capture-your-home-path)
+- [Task 3 — Get a prebuilt RISC‑V GCC toolchain](#task-3--get-a-prebuilt-riscv-gcc-toolchain)
+- [Task 4 — Add toolchain to your PATH (current shell + persistent)](#task-4--add-toolchain-to-your-path-current-shell--persistent)
+- [Task 5 — Install Device Tree Compiler (DTC)](#task-5--install-device-tree-compiler-dtc)
+- [Task 6 — Build and install Spike (RISC‑V ISA simulator)](#task-6--build-and-install-spike-riscv-isa-simulator)
+- [Task 7 — Build and install the RISC‑V Proxy Kernel (riscv-pk)](#task-7--build-and-install-the-riscv-proxy-kernel-riscv-pk)
+- [Task 8 — Ensure the cross bin directory is in PATH](#task-8--ensure-the-cross-bin-directory-is-in-path)
+- [Task 9 — Install Icarus Verilog](#task-9--install-icarus-verilog)
+- [Task 10 — Quick sanity checks](#task-10--quick-sanity-checks)
+- [Create unique_test.c](#create-uniquetestc)
+- [Compile with injected identity and RISC‑V flags](#compile-with-injected-identity-and-riscv-flags)
+- [Run on Spike with the proxy kernel](#run-on-spike-with-the-proxy-kernel)
+- [Final Expected Output](#final-expected-output)
+- [Conclusion](#conclusion)
 
 Results: -
 Source file: - unique_test.c .

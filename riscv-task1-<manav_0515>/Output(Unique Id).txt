@@ -1,0 +1,6 @@
+bbl loader
+RISC-V Uniqueness Check
+User: root
+Host: Manav
+UniqueID: 0x446797a09b094cec
+GCC_VLEN: 5

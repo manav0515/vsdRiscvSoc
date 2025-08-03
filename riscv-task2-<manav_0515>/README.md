@@ -52,7 +52,7 @@ riscv64-unknown-elf-gcc -O0 -g -march=rv64imac -mabi=lp64 \
 bubble_sort.c -o bubble_sort
 ```
 
-## ✅ Proof of Uniqueness
+## Proof of Uniqueness
 
 ### Each program output includes a clearly visible `ProofID` and `RunID`, which are generated using a 64-bit FNV-1a hash based on: -
 

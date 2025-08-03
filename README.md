@@ -24,7 +24,7 @@
 - [Task 9 — Install Icarus Verilog](#task-9--install-icarus-verilog)
 - [Task 10 — Quick sanity checks](#task-10--quick-sanity-checks)
 - [Create unique_test.c](#create-uniquetestc)
-- [Compile with injected identity and RISC‑V flags](#compile-with-injected-identity-and-riscv-flags)
+- [Compile with injected identity and RISC-V flags](#compile-with-injected-identity-and-risc-v-flags)
 - [Run on Spike with the proxy kernel](#run-on-spike-with-the-proxy-kernel)
 - [Final Expected Output](#final-expected-output)
 - [Conclusion](#conclusion)
